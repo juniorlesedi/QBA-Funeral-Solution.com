@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fdf6ec;
+}
+
+/* HEADER */
+header {
+    background-color: #2b1b17;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.logo-container img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+/* NAV */
+nav a {
+    color: #f4b400;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: white;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(rgba(43,27,23,0.8), rgba(43,27,23,0.8)),
+    url('https://images.unsplash.com/photo-1519681393784-d120267933ba');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+/* BUTTON */
+.btn {
+    background-color: #f4b400;
+    color: black;
+    padding: 12px 25px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+/* SECTIONS */
+.section {
+    padding: 40px;
+    text-align: center;
+}
+
+.dark {
+    background-color: #eee;
+}
+
+/* CARDS */
+.card {
+    background: white;
+    display: inline-block;
+    width: 220px;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* IMAGES */
+img {
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* PRICE */
+.price {
+    color: #f4b400;
+    font-weight: bold;
+}
+
+/* FOOTER */
+footer {
+    background-color: #2b1b17;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+/* PLAN CARDS */
+.plan-card {
+    background: white;
+    display: inline-block;
+    width: 280px;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    vertical-align: top;
+}
+
+.plan-card h3 {
+    color: #2b1b17;
+}
+
+.plan-card ul {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.plan-card li {
+    margin: 5px 0;
+}
+
+.highlight {
+    color: #f4b400;
+    font-weight: bold;
+}
+
+/* POPULAR PLAN */
+.popular {
+    border: 3px solid #f4b400;
+    transform: scale(1.05);
+}
